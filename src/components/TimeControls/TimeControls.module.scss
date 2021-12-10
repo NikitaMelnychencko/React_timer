@@ -1,0 +1,22 @@
+@import 'style/shared';
+
+.ControlButtons {
+  margin: 0 auto;
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+button {
+  background-color: $primary-background;
+  border-radius: 2px;
+  border: 0;
+  color: $primary-text-color;
+  font-size: 0.9rem;
+  padding: 12px;
+  width: 80px;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0;
+  }
+}
